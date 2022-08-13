@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3f4f6;
+}
+.fashion{
+    background-color: rgb(135, 108, 160);
+    width: 100%;
+    position: fixed ;
+    top: 0;
+}
+.collections{color:white ;
+    padding: 10px;
+    font-size:35px;
+    font-family: cursive;
+    text-align: center;
+    
+
+
+}
+.dress{ 
+    background-color: white;
+    width:430px;
+}
+.dress > img{ 
+    width: 80% ;
+    height: 400px;
+    margin-left: 40px; 
+}
+.dress > h2 {
+    width: 80%;
+    margin-left: 40px;
+}
+.dress > p {
+    width: 80%;
+    margin-left:40px ;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.line{ 
+    margin-top: 60px;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+@media only screen and (min-width:720px){
+    .line{ 
+        grid-template-columns:repeat(2,1fr);
+        gap: 7px;
+
+    }
+
+}
+@media only screen and (min-width:990px){
+    .line{ 
+        grid-template-columns:repeat(3 ,1fr)
+
+    }
+
+}
